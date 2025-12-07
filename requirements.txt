@@ -1,12 +1,68 @@
-python-telegram-bot[job-queue]==21.7
+
+
+## 🎯 **Final Termux-optimized requirements.txt:**
+
+```txt
+# 🎯 MARPd ULTRA PRO MAX - Termux Optimized
+# ==========================================
+
+# 🐍 CORE PYTHON
+python-telegram-bot==20.7
 python-dotenv==1.0.0
-schedule==1.2.1
-cachetools==5.3.3
-pymongo==4.6.1
+
+# ⏰ SCHEDULING
+schedule==1.2.0
+
+# 📁 FILE OPERATIONS
+aiofiles==23.2.1
+orjson==3.9.10  # Fast JSON
+
+# 💾 DATABASE (Lightweight)
+tinydb==4.8.0
+dataset==1.6.0
+
+# 🔒 SECURITY
+pycryptodome==3.19.0  # Lightweight crypto
+
+# 📞 VALIDATION
+phonenumbers==8.13.22
+email-validator==2.1.0
+
+# 🖼️ IMAGE PROCESSING (Optional)
+Pillow==10.2.0  # Comment if installation fails
+
+# 📊 SYSTEM MONITORING (Optional)
+psutil==5.9.7  # Comment if heavy
+
+# 🌐 NETWORKING
 requests==2.31.0
-aiohttp==3.9.3
+aiohttp==3.9.1
+
+# 🗃️ DATA HANDLING
+pytz==2023.3
+python-dateutil==2.8.2
+ujson==5.8.0
+
+# 📝 LOGGING
+loguru==0.7.2
+
+# 🎨 TERMINAL UI
+rich==13.5.2
+
+# 🧮 MATH (Light)
+numpy==1.24.3  # Optional
+
+# 🔧 UTILITIES
 colorama==0.4.6
-pyfiglet==0.8.post1
 tabulate==0.9.0
-numpy==1.26.4
-python-dateutil==2.9.0.post0
+tqdm==4.66.1
+humanize==4.8.0
+
+# 🎮 GAMING
+# (Core gaming logic is in games.py, no extra deps needed)
+
+# 📡 WEB (Optional)
+flask==3.0.0  # Lightweight web server
+
+# 🧪 TESTING
+pytest==7.4.3  # For development only
